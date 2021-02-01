@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="Timer.css">
+</head>
+
+<body>
+    <div>
+        <h1>Timer</h1>
+    </div>
+
+    
+
+    <div>
+        <h1 id="hour">24</h1>
+        <h1 id="min">59</h1>
+        <h1 id="sec">59</h1>
+    </div>
+    <div>
+        <button id="str_btn" onclick="start();disable_btn()">Start</button>
+        <button onclick="stop();enable_btn()">Pause</button>
+        <button onclick="reset();enable_btn()">Reset</button>
+
+    </div>
+</body>
+<script src="Timer.js"></script>
+
+</html>

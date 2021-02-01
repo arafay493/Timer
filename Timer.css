@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(56, 13, 13);
+    margin: 0 auto;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h1{
+    display: inline-flex;
+    background-color: beige;
+    padding: 20px;
+    font-size: 92px;
+    border-radius: 20px;
+    
+}
+
+button{
+    height: 100px;
+    width: 110px;
+    border: 1px solid;
+    border-radius: 50% !important;
+    font-size: 32px;
+    background-color: rgba(222, 222, 222, 0.5) ;
+    box-shadow: 5px 5px 20px black;
+    color: aliceblue;   
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+
+div{
+    text-align: center;
+    
+    
+}
